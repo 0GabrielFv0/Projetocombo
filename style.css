@@ -111,19 +111,14 @@ body {
     color: var(--branco-principal);
 }
 
-.lista__item {
-    font-size: 32px;
-    color: var(--branco-principal);
-}
-
 .rodape__lista{
     display: flex;
     justify-content: center;
-    list-style-type: none;
+    list-style: none;
 }
 
 .lista__link {
-    text-decoration: none;
+    font-size: 20px;
     margin: 0 1em 0 1em;
 }
 
@@ -131,4 +126,9 @@ body {
     text-align: center;
     color: var(--cinza-secundario);
     margin: 3em 0;
+}
+
+a{
+    text-decoration: none;
+
 }
