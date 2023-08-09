@@ -120,6 +120,7 @@ body {
 .lista__link {
     font-size: 20px;
     margin: 0 1em 0 1em;
+    color: white;
 }
 
 .rodape__texto {
@@ -130,5 +131,13 @@ body {
 
 a{
     text-decoration: none;
+    color: white;
+}
+ 
+.rodape {
+    text-align: center;
+}
 
+.rodapelogo{
+    margin: 1em 0 5em 0;
 }
